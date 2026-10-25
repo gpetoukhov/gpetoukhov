@@ -1,0 +1,4 @@
+baseURL = ''
+locale = 'fr-fr'
+title = 'Gueorgui Petoukhov'
+theme = 'ananke'
