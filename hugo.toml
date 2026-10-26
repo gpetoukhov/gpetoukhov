@@ -1,6 +1,6 @@
 baseURL = 'https://gpetoukhov.github.io/gpetoukhov/'
 locale = 'fr-fr'
-title = 'G.P.'
+title = 'G. P.'
 theme = 'ezhil'
 
 [caches]
@@ -32,7 +32,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Gueorgui Petoukhov"
+    subtitle = "my personal blog"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
