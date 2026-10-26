@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Gueorgui Petoukhov</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on Gueorgui Petoukhov</description>
+		<title>G.P.</title>
+		<link>http://localhost:1313/gpetoukhov/</link>
+		<description>Recent content on G.P.</description>
 		<generator>Hugo</generator>
 		<language>fr-fr</language>
 		
 		
 		
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Mon, 26 Oct 2026 21:03:39 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/gpetoukhov/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Curriculum Vitæ</title>
+				<link>http://localhost:1313/gpetoukhov/cv/</link>
+				<pubDate>Mon, 26 Oct 2026 21:03:39 +0100</pubDate>
+				<guid>http://localhost:1313/gpetoukhov/cv/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>My First Post</title>
+				<link>http://localhost:1313/gpetoukhov/travaux/my-first-post/</link>
+				<pubDate>Sun, 25 Oct 2026 13:48:14 +0100</pubDate>
+				<guid>http://localhost:1313/gpetoukhov/travaux/my-first-post/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>
