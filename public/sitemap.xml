@@ -8,11 +8,13 @@
     <loc>http://localhost:1313/gpetoukhov/cv/</loc>
     <lastmod>2026-10-26T21:03:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gpetoukhov/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/gpetoukhov/portfolio/my-first-post/</loc>
     <lastmod>2026-10-25T13:48:14+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gpetoukhov/posts/</loc>
+    <loc>http://localhost:1313/gpetoukhov/portfolio/</loc>
     <lastmod>2026-10-25T13:48:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gpetoukhov/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/gpetoukhov/tags/</loc>
   </url>

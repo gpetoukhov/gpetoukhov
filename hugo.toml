@@ -3,6 +3,8 @@ locale = 'fr-fr'
 title = 'G. P.'
 theme = 'ezhil'
 
+pluralizelisttitles = 'false'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -32,10 +34,10 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "my personal blog"
+    subtitle = "Mon Web log"
 
     # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
+    mainSections = ["portfolio"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
@@ -68,24 +70,24 @@ summaryLength = 20
 
 # Main menu which appears below site header.
 [[menu.main]]
-    name = "Home"
+    name = "Accueil"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Posts"
-    url = "/posts"
+    name = "Portfolio"
+    url = "/portfolio"
     weight = 2
 
 [[menu.main]]
-    name = "CV"
+    name = "C. V."
     url = "/cv"
     weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
+# [[menu.main]]
+   # name = "Tags"
+   # url = "/tags"
+   # weight = 4
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
@@ -100,5 +102,5 @@ summaryLength = 20
    # url = "index.xml"
 
 # Enable tags.
-[taxonomies]
-    tag = "tags"
+# [taxonomies]
+   # tag = "tags"

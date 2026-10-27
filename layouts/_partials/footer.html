@@ -1,0 +1,12 @@
+<div class="footer wrapper">
+	<nav class="nav">
+		<div>{{ with .Site.Copyright }} {{ . }} | {{ end }} <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Publié avec <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+{{ if not hugo.IsServer }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
+{{- if or .Site.Params.social (not .Site.Params.disableThemeSwitcher) -}}
+<script>document.addEventListener('DOMContentLoaded', function () { feather.replace() })</script>
+{{- end -}}

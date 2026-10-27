@@ -1,0 +1,10 @@
+{{ define "wrapper-class" }}post{{ end }}
+{{ define "main" }}
+<div class="post-header">
+	<h1 class="title">404 &mdash; Page introuvable</h1>
+</div>
+
+<div class="markdown">
+	<p>La page que vous recherchez n’existe pas. <a href="{{ .Site.Home.RelPermalink }}">Retournez à l'accueil</a>.</p>
+</div>
+{{ end }}
